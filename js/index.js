@@ -16,3 +16,7 @@ const calresult = ()=>{
         }
     }
 }
+
+const removelast = () =>{
+    result.value = result.value.slice(0,-1)
+}

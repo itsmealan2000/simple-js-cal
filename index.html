@@ -36,12 +36,13 @@
                         </button>
                     </div>
                     <div class="col-3 border p-3 rounded">
-                        <button class="btn w-100" id="clear" onclick="calclear()">
+                        <button class="btn w-100" id="clear" onclick="removelast()">
                             <i class="fa-solid fa-delete-left"></i>
                         </button>
                     </div>
+                    <!-- divide  -->
                     <div class="col-3 border p-3 rounded" style="background-color: #f8f3fd;">
-                        <button class="btn w-100" id="divide" style="color: #3f008f;">
+                        <button class="btn w-100" id="divide" style="color: #3f008f;" onclick="displayData('/')">
                             <i class="fa-solid fa-divide"></i>
                         </button>
                     </div>
@@ -127,8 +128,8 @@
                         </button>
                     </div>
                     <div class="col-3 border p-3 rounded">
-                        <button class="btn w-100" id="expo" onclick="displayData('e')">
-                            exp
+                        <button class="btn w-100" id="ac" onclick="calclear()">
+                            AC
                         </button>
                     </div>
         <!-- equals -->
